@@ -1,0 +1,16 @@
+{
+  "name": "vocabulary-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@tgcloud/cli": "^0.2.0"
+  },
+  "scripts": {
+    "deploy": "tgcloud push",
+    "migrate": "tgcloud migrate",
+    "status": "tgcloud status",
+    "run": "tgcloud run",
+    "test": "node --test test/**/*.test.js"
+  }
+}
